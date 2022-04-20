@@ -1,0 +1,81 @@
+:root {
+  font-size: 0.9vw;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 23%;
+  left: 8%;
+  padding: 1rem;
+  position: absolute;
+  width: 33%;
+  color: white;
+}
+
+.naslov {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 6rem;
+  letter-spacing: 0.2rem;
+}
+
+.container2 {
+  margin-top: 10%;
+}
+.upcomingEvent {
+  text-decoration: underline;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0.5rem 0;
+}
+.date {
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.description {
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.btn {
+  background: linear-gradient(90deg, #df1898 0%, #c21dd5 100%);
+  box-shadow: 0px 8px 24px rgba(223, 24, 152, 0.25);
+  border-radius: 1rem;
+  border: none;
+  margin: 9px 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  width: 50%;
+}
+
+.btn2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: white;
+  border: none;
+  background: none;
+  margin-left: 1.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
